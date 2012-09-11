@@ -1,0 +1,57 @@
+#content_home {
+	min-height: 400px;
+	width: 668px;
+	float: left;
+	overflow: visible;
+}
+
+#sidebar_home {
+	width: 307px;
+	float: left;
+	margin-left: 5px;
+	overflow: visible;
+}
+
+/* ----- BANNER ----- */
+#banner_frame {
+	height: 277px;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #c6c5c5;
+}
+#banner {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#banner img {
+	display: none;
+}
+img#banner_loading {
+	position: absolute;
+	left: 297px;
+	top: 133px;
+	display: block;
+}
+
+#open_account {
+	display: block;
+	width: 239px;
+	height: 59px;
+	background: transparent url(../images/open_account_off.png) no-repeat 31px 9px;
+	border-bottom: 1px dashed #C2C2C2;
+}
+#open_account:hover {
+	background-image: url(../images/open_account_on.png);
+}
+#open_demo_account {
+	display: block;
+	width: 239px;
+	height: 59px;
+	background: transparent url(../images/open_demo_account_off.png) no-repeat 24px 6px;
+}
+#open_demo_account:hover {
+	background-image: url(../images/open_demo_account_on.png);
+}
+
+.rounded {border:1px solid #c6c5c5;border-radius:8px;-moz-border-radius:8px;-khtml-border-radius:8px;-webkit-border-radius:8px;background:#FFF url('../images/banner webinar.jpg') no-repeat;display:block;height:85px;margin-top:234px;overflow:hidden;width:425px;}
